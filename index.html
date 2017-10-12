@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col"><h1>Pirmi patiekalai</h1></div>
+		</div>
+		<div class="row">
+			<div class="form-check">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input" id="cb_veg">
+					      Tik vegetariškas
+					    </label>
+					  </div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="form-check">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input" id="sriubos">
+					      Sriubos
+					    </label>
+					  </div>
+				</div>
+				<div class="row" id="div_sriubos">
+					<label for="Sriubu_sarasas">Sriubų sarašas</label>
+				    <select multiple class="form-control" id="sriubu_sarasas">
+				      <option veg="false">Barščiai</option>
+				      <option veg="false">Pieniška makaronu</option>
+				      <option veg="false">Trinta vištienos</option>
+				      <option veg="true">Kopustų</option>
+				      <option veg="false">Šaltibarščiai</option>
+				    </select>
+				</div>
+			</div>
+			<div class="col">
+				<div class="row">
+					<div class="form-check">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input" id="cb_salotos">
+					      Salotos
+					    </label>
+					  </div>
+				</div>
+				<div class="row" id="div_salotos">
+					<label for="Sriubu_sarasas">Salotų sarašas</label>
+				    <select multiple class="form-control" id="salotu_sarasas">
+				      <option veg="false">Cezario</option>
+				      <option veg="true">Bulvių salotos</option>
+				      <option veg="true">Brokolių ir obolių</option>
+				      <option veg="true">Avokadų</option>
+				      <option veg="false">Vištienos su vynuogėmis</option>
+				    </select>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<h1>Antri patiekalai</h1>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="row" id="div_antri">
+					<label for="desertai_sarasas"> sarašas</label>
+				    <select multiple class="form-control" id="antri_sarasas">
+				      <option cu="true" gliu="false" lakt="true">Kotletai</option>
+				      <option cu="false" gliu="true" lakt="true">Kepsnys</option>
+				      <option cu="false" gliu="true" lakt="false">Čiaburėkas</option>
+				      <option cu="true" gliu="true" lakt="true">Koldūnai</option>
+				      <option cu="true" gliu="false" lakt="false">Balandėliai</option>
+				      <option cu="false" gliu="false" lakt="false">Cepelinai</option>
+				    </select>
+				</div>
+			</div>
+			<div class="col">
+				<div class="row">
+					<div class="col-12 form-check">
+					    <label class=" form-check-label">
+					      <input type="checkbox" class="form-check-input" name="checkbox" id="cb_cukrus">
+					      Be riešutų
+					      </label>
+					  </div>
+					      <div class="col-12 form-check">
+					      <label class=" form-check-label">
+					      <input type="checkbox" class="form-check-input" name="checkbox" id="cb_laktoze">
+					      Košerinis
+					      </label>
+					  </div>
+					      <div class="col-12 form-check">
+					      <label class=" form-check-label">
+					      <input type="checkbox" class="form-check-input" name="checkbox" id="cb_gliutenas">
+					      Be gliuteno
+					    </label>
+					</div>
+					  </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+				<div class="row" id="div_antri">
+					<label for="desertai_sarasas">Desertai sarašas</label>
+				    <select multiple class="form-control" id="desertai_sarasas">
+				      <option cu="true" gliu="false" lakt="true">Vyšniniai keksiukai</option>
+				      <option cu="false" gliu="true" lakt="true">Minkšti sausainiai su cinamonine plutele</option>
+				      <option cu="false" gliu="true" lakt="false">Obolių pyragas</option>
+				      <option cu="true" gliu="true" lakt="true">Džiovinti cukinijų saldainiai</option>
+				      <option cu="true" gliu="false" lakt="false">Šokoladiniai bananų ledai</option>
+				      <option cu="false" gliu="false" lakt="false">Šokoladinis tortas</option>
+				    </select>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
