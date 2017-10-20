@@ -109,7 +109,6 @@ cb_gliutenas.addEventListener('change', function(){
 });
 
 var checkbox = document.getElementsByTagName("input[name=checkbox]");
-
 checkbox.addEventListener( 'change', function() {
     console.log(checkbox);});
     /*if(this.checked) {
